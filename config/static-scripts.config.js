@@ -43,16 +43,16 @@ module.exports = function(env) {
       ),
       images: Object.assign(
         {
-          src: config.src + "img/**/*.+(png|jpg|jpeg|gif|svg|webp)",
-          watch: config.src + "img/**/*.+(png|jpg|jpeg|gif|svg|webp)",
-          dest: config.dest + "static/img/",
+          src: config.src + "images/**/*.+(png|jpg|jpeg|gif|svg|webp)",
+          watch: config.src + "images/**/*.+(png|jpg|jpeg|gif|svg|webp)",
+          dest: config.dest + "static/images/",
         },
         config.images
       ),
       svg: Object.assign(
         {
-          src: config.src + "img/**/*.svg",
-          watch: config.src + "img/**/*.svg",
+          src: config.src + "images/**/*.svg",
+          watch: config.src + "images/**/*.svg",
           dest: config.dest + "static/svg/",
           config: {
             dest: ".",

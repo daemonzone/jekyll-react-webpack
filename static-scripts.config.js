@@ -38,10 +38,7 @@ module.exports = function(env) {
       dest: dest + "js/",
     },
     images: {
-      dest: dest + "img/",
-    },
-    svg: {
-      dest: dest + "svg/",
+      dest: dest + "images/",
     },
   }
 }
